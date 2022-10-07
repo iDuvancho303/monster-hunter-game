@@ -1,5 +1,7 @@
-function Monster(classType, affinity, damage, defense) {
-    this.classType = classType;
+let monster;
+
+function Monster(monsterType, affinity, damage, defense) {
+    this.monsterType = monsterType;
     this.affinity = affinity;
     this.damage = damage;
     this.defense = defense;
