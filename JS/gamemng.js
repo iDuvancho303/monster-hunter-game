@@ -1,9 +1,9 @@
 let GameManager = {
-    gameStart: function() {
-        this.resetPlayer();
+    gameStart: function(classType) {
+        this.resetPlayer(classType);
         this.setPreFight();
     },
-    resetPlayer: function() {
+    resetPlayer: function(classType) {
 
     },
     setPreFight: function() {
